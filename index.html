@@ -3,70 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>time table</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+<header>
+    <nav>
+        <ul>
+            <a href="index.html"></a><li>Home</li>
+            <a href="index.html"></a><li>About</li>
+            <a href="index.html"></a><li>Skills</li>
+            <a href="index.html"></a><li>Project</li>
+
+        </ul>
+    </nav>
+       
+</header>
+       
 </head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+          
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 <body>
-    <section>
-        <caption style="align-content:center;">
-            <h1>TIME TABLE</h1>
-        </caption>
-        <table width="60%" align="center" border="2">
-            <tr>
-                <th>Time</th>
-                <th>1st period</th>
-                <th>2nd period</th>
-                <th>3rd period</th>
-                <th>4th period</th>
-                <th>5th period</th>
-                <th>6th period</th>
-            </tr>
-            <tr>
-                <th>1</th>
-                <td>Operating System</td>
-                <td>Java Programming</td>
-                <td>Tamil</td>
-                <td>English</td>
-                <td>Java Programming</td>
-                <td>Human rights</td>
-            </tr>
-            <tr>
-                <th>2</th>
-                <td>Java Lab</td>
-                <td>Java Lab</td>
-                <td>Operating System</td>
-                <td>Java Programming</td>
-                <td>Inovasion Lab</td>
-                <td>Inovasion Lab</td>
-            </tr>
-            <tr>
-            <th>3</th>
-            <td>Inovasion Lab</td>
-            <td>Inovasion Lab</td>
-            <td>Tamil</td>
-            <td>Discrete Mathematics</td>
-            <td>Java Programming</td>
-            <td>Operating System</td>
-           </tr>
-           <tr>
-            <th>4</th>
-            <td>Discrete Mathematics</td>
-            <td>Operating System</td>
-            <td>Java Lab</td>
-            <td>Java Lab</td>
-            <td>English</td>
-            <td>Tamil</td>
-           </tr>
-           <tr>
-            <th>5</th>
-            <td>Discrete Mathematics</td>
-            <td>Operating System</td>
-            <td>Java Programming</td>
-            <td>Discrete Mathematics</td>
-            <td>Java Programming</td>
-            <td>Tamil</td>
-           </tr>
-        </table>
+    <section id="intro">
+        <h1>DEVADHARSHINI</h1>
+        <p>Fullstack Developer</p>
+    <div class="btnparent">
+        <div class="btn"><a href="Download Resume">Download Resume</a></div>
+        <div class="btn"><a href="Contact me">Contact me</a></div>
+    </div>    
     </section>
-    
+    <section id="About">
+        <h1>About Me</h1>
+        <p>I am a Fullstack Developer with experience in HTML,CSS and JavaScript.</p>
+        <p>I learn these to enhance my skills in web development.</p>
+    </section>  
+    <section id="Skills">
+        <h1>Skills</h1>  
+        <p>HTML</p>
+        <div class="skills-bar">
+            <div style="width:90% ;background-color: burlywood;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="skills-bar">
+            <div style="width:85% ;background-color: blue;"></div>
+        </div>
+        <p>JavaScript</p>
+        <div class="skills-bar">
+            <div style="width:75% ;background-color: goldenrod;"></div>
+        </div>
+        <div class ="section">
+            <h1>Contact details</h1>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="Enter your name" >
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Your email" >
+                <label>Message:</label>
+                <textarea name="message"rows="5"placeholder="Your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+
+</header>
 </body>
 </html>
